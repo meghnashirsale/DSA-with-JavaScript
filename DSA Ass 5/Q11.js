@@ -10,6 +10,5 @@ function infixToPrefix(infix) {
     return temp.split('').reverse().join('');
 }
 
-// Example usage:
 const infixExpr2 = "(a-b/c)*(a/k-l)";
 console.log(infixToPrefix(infixExpr2)); 
