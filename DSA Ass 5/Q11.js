@@ -1,4 +1,4 @@
-// Q11. Infix to Prefix Conversion Using Stack
+//Q11. Infix to Prefix Conversion Using Stack
 function infixToPrefix(infix) {
     const reverseInfix = infix.split('').reverse().join('');
     const temp = infixToPostfix(reverseInfix.split('').map(char => {
