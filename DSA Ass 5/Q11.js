@@ -12,5 +12,4 @@ function infixToPrefix(infix) {
 
 // Example usage:
 const infixExpr2 = "(a-b/c)*(a/k-l)";
-console.log(infixToPrefix(infixExpr2)); // *-a/bc-/akl
-
+console.log(infixToPrefix(infixExpr2)); 
